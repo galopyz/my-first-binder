@@ -1,0 +1,12 @@
+name: my-binder
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - pip
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchtext
+  - pip:
+    - torchviz
