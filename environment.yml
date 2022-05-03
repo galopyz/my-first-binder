@@ -4,9 +4,5 @@ channels:
   - pytorch
 dependencies:
   - pip
-  - matplotlib
-  - pytorch
-  - torchvision
-  - torchtext
-  - pip:
-    - torchviz
+  - pytorch-cpu
+  - "transformers[sentencepiece]"
