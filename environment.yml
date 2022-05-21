@@ -7,3 +7,4 @@ dependencies:
   - pytorch-cpu
   - "transformers[sentencepiece]"
   - datasets
+  - libgcc
